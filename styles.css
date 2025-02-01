@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Bright white background for clarity */
+}
+
+header {
+    background: #007bff; /* Bright blue header for contrast */
+    color: #ffffff; /* White text color for readability */
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #ffffff; /* White link color for visibility */
+    text-decoration: none;
+}
+
+main {
+    padding: 30px;
+}
+
+article {
+    margin-bottom: 20px;
+    background: #f8f9fa; /* Light gray background for articles */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background: #007bff; /* Consistent bright blue footer */
+    color: #ffffff; /* White footer text for readability */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block; /* Stack links vertically on smaller screens */
+        margin: 10px 0;
+    }
+    
+    article {
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+}
+
+/* Add hover effects */
+nav ul li a:hover {
+    text-decoration: underline; /* Underline links on hover */
+}
